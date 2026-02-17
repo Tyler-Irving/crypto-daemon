@@ -1,0 +1,18 @@
+# Crypto Trading Bot Dependencies
+# Install with: pip install -r requirements.txt
+
+# Coinbase Advanced Trade API
+coinbase-advanced-py>=1.2.0
+
+# HTTP requests for Telegram notifications
+requests>=2.31.0
+
+# Standard library dependencies (included with Python 3.8+)
+# - json
+# - time
+# - sys
+# - os
+# - pathlib
+# - uuid
+# - signal
+# - atexit

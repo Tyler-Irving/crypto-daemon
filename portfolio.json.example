@@ -1,0 +1,40 @@
+{
+  "initial_capital": 100.0,
+  "start_date": "2026-01-01",
+  "trades": [
+    {
+      "pair": "BTC-USDC",
+      "side": "buy",
+      "price": 45000.0,
+      "qty": 0.001,
+      "usdc": 45.0,
+      "score": 65,
+      "time": "2026-01-15 10:30:00",
+      "closed": true,
+      "stop_loss": 42750.0,
+      "target": 48600.0,
+      "max_profit": 3.6,
+      "max_loss": 2.25,
+      "order_type": "limit",
+      "close_price": 48500.0,
+      "close_time": "2026-01-16 14:20:00",
+      "close_reason": "take_profit"
+    },
+    {
+      "pair": "ETH-USDC",
+      "side": "buy",
+      "price": 2500.0,
+      "qty": 0.02,
+      "usdc": 50.0,
+      "score": 70,
+      "time": "2026-01-18 09:15:00",
+      "closed": false,
+      "stop_loss": 2375.0,
+      "target": 2700.0,
+      "max_profit": 4.0,
+      "max_loss": 2.5,
+      "order_type": "limit"
+    }
+  ],
+  "notes": "Example portfolio structure for crypto trading bot"
+}
